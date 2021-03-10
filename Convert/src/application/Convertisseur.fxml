@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="258.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConvertisseurController">
+   <children>
+      <TextField fx:id="txt1" layoutX="71.0" layoutY="33.0" onKeyReleased="#calculer1" prefHeight="27.0" prefWidth="150.0" text="1" />
+      <TextField fx:id="txt2" layoutX="239.0" layoutY="33.0" onKeyReleased="#calculer2" prefHeight="27.0" prefWidth="150.0" text="1" />
+      <ComboBox fx:id="cbo1" layoutX="70.0" layoutY="61.0" onAction="#calculer1" prefWidth="150.0" />
+      <ComboBox fx:id="cbo2" layoutX="239.0" layoutY="61.0" onAction="#calculer2" prefWidth="150.0" />
+      <TextField fx:id="txtL1" layoutX="71.0" layoutY="152.0" onKeyReleased="#calculerL1" text="1" />
+      <TextField fx:id="txtL2" layoutX="247.0" layoutY="152.0" onKeyReleased="#calculerL2" text="1" />
+      <ComboBox fx:id="cboL1" layoutX="70.0" layoutY="179.0" onAction="#calculerL1" prefHeight="27.0" prefWidth="161.0" />
+      <ComboBox fx:id="cboL2" layoutX="247.0" layoutY="179.0" onAction="#calculerL2" prefHeight="27.0" prefWidth="161.0" />
+   </children>
+</AnchorPane>
